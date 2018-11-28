@@ -81,8 +81,37 @@ Classification codes were defined by the American Society for Photogrammetry and
  
   With airborne lidar, the system is installed in either a fixed-wing aircraft or helicopter. The infrared laser light is emitted toward the ground and returned to the moving airborne lidar sensor. There are two types of airborne sensors: 
     
-   1. topographic and 
-   2. bathymetric.
+   1. __Topographic__ and 
+   2. __Bathymetric__
+
+  #### __Topographic__ :
+  
+  Topographic lidar can be used to derive surface models for use in many applications, such as forestry, hydrology, geomorphology, urban planning, landscape ecology, coastal engineering, survey assessments, and volumetric calculations.
+  
+  <p align="center">
+  <img alt="" src="http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/GUID-DAC09D61-6A8E-4F1D-B164-DB5AECFF2A5C-web.png">
+</p>
+
+  #### __Bathymetric lidar__ :
+  Bathymetric lidar is a type of airborne acquisition that is water penetrating. Most bathymetric lidar systems collect elevation and water depth simultaneously, which provides an airborne lidar survey of the land-water interface. With a bathymetric lidar survey, the infrared light (traditional laser system) is reflected back to the aircraft from the land and water surface, while the additional green laser travels through the water column. Analyses of the two distinct pulses are used to establish water depths and shoreline elevations. Bathymetric information is very important near coastlines, in harbors, and near shores and banks. Bathymetric information is also used to locate objects on the ocean floor.
+
+<p align="center">
+  <img alt="" src="http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/GUID-A93C964C-F417-4523-B391-4931C05AFF31-web.png">
+</p>
 
 
  ### 2. Terrestrial lidar
+
+
+There are two main types of terrestrial lidar: 
+  1. mobile and 
+  2. static. 
+  
+In the case of __mobile acquisition__, the lidar system is mounted on a moving vehicle. In the case of __static acquisition__, the lidar system is typically mounted on a tripod or stationary device. Both lidar sensors consist of eye-safe lasers.
+
+Terrestrial lidar collects very dense and highly accurate points, which allows precise identification of objects. These dense point clouds can be used to manage facilities, conduct highway and rail surveys, and even create 3D city models for exterior and interior spaces, to name a few examples.
+
+
+<p align="center">
+  <img alt="" src="http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/GUID-728FDD39-C25A-4464-96F8-DB6A0EED68CC-web.png">
+</p>
