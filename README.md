@@ -115,3 +115,30 @@ Terrestrial lidar collects very dense and highly accurate points, which allows p
 <p align="center">
   <img alt="" src="http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/GUID-728FDD39-C25A-4464-96F8-DB6A0EED68CC-web.png">
 </p>
+
+
+## Storing lidar data
+
+Originally, lidar data was only delivered in ASCII format. With the massive size of lidar data collections, a binary format called [__LAS__](http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/file-structure-of-las-datasets.htm) was soon adopted to manage and standardize the way in which lidar data was organized and disseminated. Now it is quite common to see lidar data represented in LAS. LAS is a more acceptable file format, because LAS files contain more information and, being binary, can be read by the importer more efficiently.
+
+_LAS_ is an industry format created and maintained by the _American Society for Photogrammetry and Remote Sensing_ (__ASPRS__). LAS is a published standard file format for the interchange of lidar data. It maintains specific information related to lidar data. It is a way for vendors and clients to interchange data and maintain all information specific to that data.
+
+Each LAS file contains metadata of the lidar survey in a header block followed by individual records for each laser pulse recorded. The header portion of each LAS file holds attribute information on the lidar survey itself: data extents, flight date, flight time, number of point records, number of points by return, any applied data offset, and any applied scale factor. The following lidar point attributes are maintained for each laser pulse of a LAS file: x,y,z location information, GPS time stamp, intensity, return number, number of returns, point classification values, scan angle, additional RGB values, scan direction, edge of flight line, user data, point source ID and waveform information.
+
+
+
+## What is lidar intensity data?
+
+Intensity is a measure, collected for every point, of the return strength of the laser pulse that generated the point. It is based, in part, on the reflectivity of the object struck by the laser pulse.
+
+Reflectivity is a function of the wavelength used, which is most commonly in the near infrared. The strength of the returns varies with the composition of the surface object reflecting the return.
+
+Intensity is used as an aid in feature detection and extraction, in lidar point classification, and as a substitute for aerial imagery when none is available. Intensity is relative, not quantifiable, therefore you cannot expect the same value off the same target from flight to flight or from elevation to elevation.
+
+If your lidar data includes intensity values, you can make images from them that look something like black-and-white aerial photos. ArcGIS provides the ability to create intensity imagery from lidar data.
+
+
+
+<p align="center">
+  <img alt="" src="http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/GUID-0383FDFE-6B0C-4B69-967A-966F647426C5-web.png">
+</p>
