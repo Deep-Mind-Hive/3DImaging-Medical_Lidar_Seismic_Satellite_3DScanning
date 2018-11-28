@@ -1,7 +1,7 @@
 # Lidar Data
 
 ## What is Lidar data?
-Lidar (light detection and ranging) is an optical remote-sensing technique that uses laser light to densely sample the surface of the earth, producing highly accurate x,y,z measurements. Lidar, primarily used in airborne laser mapping applications, is emerging as a cost-effective alternative to traditional surveying techniques such as photogrammetry. Lidar produces mass point cloud datasets that can be managed, visualized and analyzed.
+_Lidar_ (__light detection and ranging__) is an optical remote-sensing technique that uses laser light to densely sample the surface of the earth, producing highly accurate x,y,z measurements. Lidar, primarily used in airborne laser mapping applications, is emerging as a cost-effective alternative to traditional surveying techniques such as photogrammetry. Lidar produces mass point cloud datasets that can be managed, visualized and analyzed.
 
 
 he major hardware components of a lidar system include a collection vehicle (aircraft, helicopter, vehicle, and tripod), laser scanner system, GPS (Global Positioning System), and INS (inertial navigation system). An INS system measures roll, pitch, and heading of the lidar system.
@@ -48,3 +48,41 @@ Multiple returns are capable of detecting the elevations of several objects with
 |_Scan angle_|The scan angle is a value in degrees between -90 and +90. At 0 degrees, the laser pulse is directly below the aircraft at nadir. At -90 degrees, the laser pulse is to the left side of the aircraft, while at +90, the laser pulse is to the right side of the aircraft in the direction of flight. Most lidar systems are currently less than ±30 degrees.|
 |_Scan direction_|The scan direction is the direction the laser scanning mirror was traveling at the time of the output laser pulse. A value of 1 is a positive scan direction, and a value of 0 is a negative scan direction. A positive value indicates the scanner is moving from the left side to the right side of the in-track flight direction, and a negative value is the opposite.|
 
+__Note__ : Additional information is stored along with every x, y, and z positional value.
+
+
+
+
+## What is a point cloud?
+
+Post-processed spatially organized lidar data is known as point cloud data. The initial point clouds are large collections of 3D elevation points, which include x, y, and z, along with additional attributes such as GPS time stamps. The specific surface features that the laser encounters are classified after the initial lidar point cloud is post-processed. Elevations for the ground, buildings, forest canopy, highway overpasses, and anything else that the laser beam encounters during the survey constitutes point cloud data.
+
+
+<p align="center">
+  <img alt="" src="http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/GUID-43D0F282-15F1-4A96-ACD0-9F8FBD1F1B9A-web.png">
+</p>
+
+
+
+## Lidar Point Classification
+
+Every lidar point can have a classification assigned to it that defines the type of object that has reflected the laser pulse. Lidar points can be classified into a number of categories including bare earth or ground, top of canopy, and water. The different classes are defined using numeric integer codes in the LAS files.
+
+Classification codes were defined by the American Society for Photogrammetry and Remote Sensing (ASPRS) for LAS formats 1.1, 1.2, 1.3, and 1.4.
+
+<p align="center">
+  <img alt="" src="http://desktop.arcgis.com/en/arcmap/10.3/manage-data/las-dataset/GUID-B28B8ABA-C84C-4759-AFDF-7BF88763CE9E-web.jpg">
+</p>
+
+
+## Types of LIDAR
+
+ ### 1. Airborne
+ 
+  With airborne lidar, the system is installed in either a fixed-wing aircraft or helicopter. The infrared laser light is emitted toward the ground and returned to the moving airborne lidar sensor. There are two types of airborne sensors: 
+    
+   1. topographic and 
+   2. bathymetric.
+
+
+ ### 2. Terrestrial lidar
