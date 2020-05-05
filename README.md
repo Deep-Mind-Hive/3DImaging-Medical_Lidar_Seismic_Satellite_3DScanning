@@ -1,4 +1,4 @@
-# Lidar Data
+# Lidar Data (3D Imaging)
 
 ## What is Lidar data?
 _Lidar_ (__light detection and ranging__) is an optical remote-sensing technique that uses laser light to densely sample the surface of the earth, producing highly accurate x,y,z measurements. Lidar, primarily used in airborne laser mapping applications, is emerging as a cost-effective alternative to traditional surveying techniques such as photogrammetry. Lidar produces mass point cloud datasets that can be managed, visualized and analyzed.
