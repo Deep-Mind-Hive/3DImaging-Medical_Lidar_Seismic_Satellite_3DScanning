@@ -1,6 +1,6 @@
-# Deep Learning On 2-Dimentional Images
+# Deep Learning On 2-Dimentional Medical Imaging
 
-## What is 2-Dimentional Medical image ? 
+## 2-Dimentional Medical imaging
 One type of picture you can come across in real life is the two-dimensional one. The two dimensions depicted are length and width and the objects on the picture are flat. Mediacal Images comes from - 
     1. MRI dataset
     2. CT Scan
@@ -8,12 +8,13 @@ One type of picture you can come across in real life is the two-dimensional one.
     4. InfraRed Images
 
 ## Medical Problems
+
 <p aling="center">
 <img alt="medical imaging" src="https://www.researchgate.net/profile/Nilanjan_Dey3/publication/312222298/figure/fig2/AS:476035763445761@1490507178297/Association-between-the-electromagnetic-spectrum-and-the-medical-modalities.png"></p>
 
 
 
-### 4.1.1 MRI/CT-Scan/X-rays dataset
+### MRI/CT-Scan/X-rays dataset
 #### MRI Background
 
 Magnetic Resonance Imaging (MRI) is the most common diagnostic tool brain tumors due primarily to it's noninvasive nature and ability to image diverse tissue types and physiological processes. MRI uses a magnetic gradient and radio frequency pulses to take repetitive axial slices of the brain and construct a 3-dimensional representation. Each brain scan 155 slices, with each pixel representing a 1mm<sup>3</sup> voxel.  
@@ -31,6 +32,7 @@ A computerized tomography scan (CT or CAT scan) uses computers and rotating X-ra
 #### MRI/CT-Scan/X-rays pre-processing ([code](https://github.com/naldeborgh7575/brain_segmentation/blob/master/code/brain_pipeline.py))
 
 One of the challenges in working with MRI/CT-Scan/X-rays data is dealing with the artifacts produced either by inhomogeneity in the magnetic field or small movements made by the patient during scan time. Oftentimes a bias will be present across the resulting scans, which can effect the segmentation results particularly in the setting of computer-based models.
+
 <p align="center">
 <img alt="Bias correction before and after" src="https://github.com/naldeborgh7575/brain_segmentation/raw/master/images/n4_correction.png" width=200>  </p>
 
@@ -74,7 +76,7 @@ You can easily install pydicom via command prompt
    
    
 
-### 4.1.2 InfraRed Image dataset
+### InfraRed Image dataset
 
 #### Infrared Background
 In infrared photography, the film or image sensor used is sensitive to infrared light. The part of the spectrum used is referred to as near-infrared to distinguish it from far-infrared, which is the domain of thermal imaging. Wavelengths used for photography range from about 700 nm to about 900 nm. Film is usually sensitive to visible light too, so an infrared-passing filter is used; this lets infrared (IR) light pass through to the camera, but blocks all or most of the visible light spectrum
@@ -87,7 +89,6 @@ In infrared photography, the film or image sensor used is sensitive to infrared 
        <br> <code>pip install pyradi</code>
    2. [Spy](http://www.spectralpython.net/) <bR> <code>pip install spectral</code>
    3. [Rampy](https://github.com/charlesll/rampy)<br><code>pip install rampy</code>
-
 
 
 [White paper for reference.](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7532521)
