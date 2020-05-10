@@ -7,7 +7,7 @@ The functions in this section perform various geometrical transformations of 2D 
 
 #### Library for Such operation
 
-##### [OpenCv](https://docs.opencv.org/2.4/modules/imgproc/doc/geometric_transformations.html)
+##### [OpenCV](https://docs.opencv.org/2.4/modules/imgproc/doc/geometric_transformations.html)
   1. getAffineTransform
   2. getPerspectiveTransform
   3. getRectSubPix
