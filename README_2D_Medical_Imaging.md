@@ -1,44 +1,13 @@
 # Deep Learning On 2-Dimentional Images
 
-## 1. What is 2-Dimentional image ? 
-One type of picture you can come across in real life is the two-dimensional one. The two dimensions depicted are length and width and the objects on the picture are flat.
-
-<p align="center">
-<img alt='cat' src='https://vignette.wikia.nocookie.net/animal-jam-clans-1/images/e/e7/2d.jpg/revision/latest?cb=20160919185703' width=400 aling=center></p>
-
-
-
-## 2. How to handle these data ?
-There are many libraries in Python to handle these kind of data:
-  1. [Keras](https://keras.io/)
-  2. [Tensorflow](https://www.tensorflow.org/tutorials/)
-  3. [cv2](https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_gui/py_image_display/py_image_display.html)
-  
-
-
-## 3. How these model work ?
-
-![picture alt](https://www.researchgate.net/publication/314282902/figure/fig1/AS:469481303613440@1488944473917/Architecture-of-the-proposed-CNN-model-with-2-convolutional-layers.png "Title is optional")
-
-
-
-Convolutional Neural Network is a neural network consists of convolutional layer, pooling layer (max pooling or average pooling but max pooling is preferable), fully connected layer and at last a softmax pooling
-
-Object_detection.py explains how to create a simple convnet using keras framwork.
-
-
-
-## 4. Area of application ?
-1. Medical problems
+## What is 2-Dimentional Medical image ? 
+One type of picture you can come across in real life is the two-dimensional one. The two dimensions depicted are length and width and the objects on the picture are flat. Mediacal Images comes from - 
     1. MRI dataset
     2. CT Scan
     3. Xray Scans etc.
     4. InfraRed Images
-2. Thermal images
-3. Satellite images etc.
 
-
-## 4.1 Medical Problems
+## Medical Problems
 <p aling="center">
 <img alt="medical imaging" src="https://www.researchgate.net/profile/Nilanjan_Dey3/publication/312222298/figure/fig2/AS:476035763445761@1490507178297/Association-between-the-electromagnetic-spectrum-and-the-medical-modalities.png"></p>
 
@@ -125,85 +94,11 @@ In infrared photography, the film or image sensor used is sensitive to infrared 
 
 
 
+## CNN models work for Image featurization
 
-### 4.2 Thermal Images
-
-Thermal imaging is a non-destructive, non-contact and rapid system. It reports temperature through measuring infrared radiation emanated by an object/material surface. Automated thermal imaging system involves thermal camera equipped with infrared detectors, signal processing unit and image acquisition system supported by computer. It is elaborated in wide domains applications. Extensive focus is directed to the thermal imaging in the medical domain especially breast cancer detection. This chapter provided the main concept and the different applications of thermal imaging. It explores and analyses several works in the light of studding the thermograph. It is an effective screening tool for breast cancer prediction. Studies justify that thermography can be considered a complementary tool to detect breast diseases. The current chapter reviews many usages and limitations of thermography in biomedical field. Extensive recommendations for future directions are summarized to provide a structured vision of breast thermography. 
-
-
-
-#### Thermal imaging background
-
-All materials/ objects that are at temperature above -273 degrees C (0 degrees Kelvin) emanate infrared energy. The emitted infrared (IR) energy from the measured object is converted into an electrical signal by imaging sensor. This imaging sensor is in the camera which connected to computer for displaying on a monitor the converted signal as a color or monochrome thermal image. The  IR  is  a form  of  electromagnetic  radiation  that  has  wavelength band  of  0.78  to 1000µm, which are longer than the wavelength of visible light and shorter than the radio waves. Several characteristics of the infrared radiation are similar to visible light, such as: the IR radiation can  be refracted,  focused,  reflected and  transmitted.  The  absorptivity,  emissivity, transmissivity, and reflectivity  of  infrared  radiation  vary for  different  objects/  materials.  Good  absorber  objects  for  the infrared radiation are also good emitters.  
-
-
-#### Equipment that produces thermal image (Camera)
-
-
-Thermal  imaging refers  to improve  objects visibility even  in a  dark  environment  by recognizing  the objects' infrared radiation as well as creating an image based on that information. Since, all objects emit heat (infrared energy) as a function of their temperature. This emitted infrared energy is known as the object‘s heat  signature  (Gaussorgues,&  Chomet,  2012).  Generally,  the  emitted  radiation  is  directly proportional to the object temperature (i.e. the hotter an object is, the more radiation it emits). Therefore, a heat sensor is required to detect tiny differences  in temperature. This thermal sensor  is essentially a thermal infrared (IR) camera (thermal camera) that collects the infrared radiation on the surface of the objects  under  investigation  and  produces  an  electronic  image  based  on  the  temperature  differences information. Additionally, thermal camera can detect different objects in the same view based on the object's different temperature, which make them appear as distinct objects in a thermal image.  
-
-[For more mathematical details](https://www.researchgate.net/publication/312222298_Thermal_Imaging_in_Medical_Science)
-<p align="center">
-<img alt="thermal image" src="https://s3-media1.fl.yelpcdn.com/bphoto/zlyM4CeCZVcz_LcmwOy4bQ/ls.jpg"></p> 
+![picture alt](https://www.researchgate.net/publication/314282902/figure/fig1/AS:469481303613440@1488944473917/Architecture-of-the-proposed-CNN-model-with-2-convolutional-layers.png "Title is optional")
 
 
 
-### 4.3 Satellite Images
-
-<p align="center">
-<img width=500 alt="satellite images" src="https://cdn-images-1.medium.com/max/1200/0*iRgiB6y8atMchG0o.jpg"></p>
-
-1. Satellite imagery are images of Earth or other planets collected by imaging satellites operated by governments and businesses around the world. Satellite imaging companies sell images by licensing them to governments and businesses such as Apple Maps and Google Maps.
-2. Satellite images are one of the most powerful and important tools used by the meteorologist. They are essentially the eyes in the sky. These images reassure forecasters to the behavior of the atmosphere as they give a clear, concise, and accurate representation of how events are unfolding. Forecasting the weather and conducting research would be extremely difficult without satellites. Data taken at stations around the country is limited in its representations of atmospheric motion. It is still possible to get a good analysis from the data, but because the stations are separated by hundreds of miles significant features can be missed. Satellite images aid in showing what can not be measured or seen. In addition the satellite images are viewed as truth. There is no chance for error. Satellite images provide data that can be interpreted "first-hand".
-
-
-#### Libraries of python
-  1. [geoio](https://pypi.org/project/geoio/)
- 
-      <code>pip install geoio</code>
-      
-  2. [raster vision](https://github.com/azavea/raster-vision)
-
-
-
-### Difference between Raster and Vector Images
-
-| Raster Images | Vector Images |
-| :--- | ---:|
-|raster graphics are composed of pixels | vector graphics are composed of paths |
-| A raster graphic, such as a gif or jpeg, is an array of pixels of various colors, which together form an image | A vector graphic, such as .svg, .eps file or Adobe Illustrator file, is composed of paths, or lines, that are either straight or curved.|
-| Raster graphics become "blocky," since each pixel increases in size as the image is made larger. This is why logos and other designs are typically created in vector format -- the quality will look the same on a business card as it will on a billboard. | The data file for a vector image contains the points where the paths start and end, how much the paths curve, and the colors that either border or fill the paths. Because vector graphics are not made of pixels, the images can be scaled to be very large without losing quality. |
-
-
-
-## 5. Geometric, Photometric and Morphological transformations
-
-### 5.1 Geometric transformation
-
-The functions in this section perform various geometrical transformations of 2D images. They do not change the image content but deform the pixel grid and map this deformed grid to the destination image. In fact, to avoid sampling artifacts, the mapping is done in the reverse order, from destination to the source. That is, for each pixel (x, y) of the destination image, the functions compute coordinates of the corresponding “donor” pixel in the source image and copy the pixel value:
-<p align = "center">{dst} (x,y)= {src} (f_x(x,y), f_y(x,y))</p> 
-
-#### Library for Such operation
-
-##### [OpenCv](https://docs.opencv.org/2.4/modules/imgproc/doc/geometric_transformations.html)
-  1. getAffineTransform
-  2. getPerspectiveTransform
-  3. getRectSubPix
-  4. getRotationMatrix2D
-  5. invertAffineTransform
-  6. LinearPolar
-  7. LogPolar
-  8. remap
-  9. resize
-  10. warpAffine
-  11. warpPerspective
-  12. initUndistortRectifyMap
-  13. getDefaultNewCameraMatrix
-  14. undistortPoints
-  15. undistort
-  
-  
-  
-
-
+Convolutional Neural Network is a neural network consists of convolutional layer, pooling layer (max pooling or average pooling but max pooling is preferable), fully connected layer and at last a softmax pooling
 
