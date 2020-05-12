@@ -23,7 +23,7 @@ This notebook aims at presenting a simple example of relative seismic inversion.
  
   
 ## Want to get access of free loads of 3D Seismic Datasets
- Please access ["The SEG Wiki](https://wiki.seg.org/wiki/Main_Page)
+ Please access ["The SEG Wiki"](https://wiki.seg.org/wiki/Main_Page)
  The SEG Wiki's main mission is to supply scientific materials to the geoscience community.
  
  Well! A sample (An example 3D plot of a subset of Kerry-3D) data and inline and xline displays are below - 
