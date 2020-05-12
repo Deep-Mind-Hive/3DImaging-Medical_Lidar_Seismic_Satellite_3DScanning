@@ -9,7 +9,7 @@ Kerry-3D is collection of Data provided by the New Zealand Crown Minerals is a p
  
 Please refer to the 
 
-NOTEBOOK  - 
+NOTEBOOK  - https://github.com/equinor/segyio-notebooks/blob/master/notebooks/pylops/01_seismic_inversion.ipynb
 
 This notebook aims at presenting a simple example of relative seismic inversion. This notebook uses both the [Kerry3D data](https://wiki.seg.org/wiki/Kerry-3D) and the [Volve data](https://www.equinor.com/no/how-and-why/digitalisation-in-our-dna/volve-field-data-village-download.html) as input data to our inversion and we will leverage the open-source [segyio](https://pypi.org/project/segyio/) along with [pylops](https://pypi.org/project/pylops/) libraries to accomplish our task as follows:
 
@@ -17,7 +17,10 @@ This notebook aims at presenting a simple example of relative seismic inversion.
   - Relative seismic inversion is applied by means of pylops.avo.poststack.PoststackInversion
   - Inverted data is saved back to SEG-Y file using segyio
   
-https://github.com/equinor/segyio-notebooks/blob/master/notebooks/pylops/01_seismic_inversion.ipynb for 
+ Pictorial representation of the workflow - 
+ https://mycarta.files.wordpress.com/2019/03/workflow.png?w=768
+ 
+ 
   
 ## Want to get access of free loads of 3D Seismic Datasets
  Please access ["The SEG Wiki](https://wiki.seg.org/wiki/Main_Page)
