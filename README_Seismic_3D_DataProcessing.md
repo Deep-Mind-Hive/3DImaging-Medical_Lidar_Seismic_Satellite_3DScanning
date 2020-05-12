@@ -18,7 +18,8 @@ This notebook aims at presenting a simple example of relative seismic inversion.
   - Inverted data is saved back to SEG-Y file using segyio
   
  Pictorial representation of the workflow - 
- https://mycarta.files.wordpress.com/2019/03/workflow.png?w=768
+ <img src="https://mycarta.files.wordpress.com/2019/03/workflow.png?w=768" width="440" height="180" border="10"/>
+ 
  
  
   
@@ -44,5 +45,5 @@ This notebook aims at presenting a simple example of relative seismic inversion.
  ** Enters [segyio](https://pypi.org/project/segyio/), a fast, open-source library, developed precisely to work with SEGY files. The aforementioned whole load of questions get answered by python libraries - [segyio](https://pypi.org/project/segyio/) along with [pylops](https://pypi.org/project/pylops/) and NumPy. ** 
  
 ## Reference
-https://youtu.be/7DnudEsb6hU
+[![Seismic Data Inversion](https://serc.carleton.edu/download/images/27316/seismic_reflection.gif)](https://youtu.be/7DnudEsb6hU)
  
