@@ -48,5 +48,7 @@ This notebook aims at presenting a simple example of relative seismic inversion.
  ** Enters [segyio](https://pypi.org/project/segyio/), a fast, open-source library, developed precisely to work with SEGY files. The aforementioned whole load of questions get answered by python libraries - [segyio](https://pypi.org/project/segyio/) along with [pylops](https://pypi.org/project/pylops/) and NumPy. ** 
  
 ## Reference
-[![Seismic Data Inversion](https://serc.carleton.edu/download/images/27316/seismic_reflection.gif)](https://youtu.be/7DnudEsb6hU)  (["Click on the Image Link"](https://youtu.be/7DnudEsb6hU) for the YouTube Video on Seismic Data Inversion)
+[![Seismic Data Inversion](https://serc.carleton.edu/download/images/27316/seismic_reflection.gif)](https://youtu.be/7DnudEsb6hU)    (["Click on the Image Link"](https://youtu.be/7DnudEsb6hU) for the YouTube Video on Seismic Data Inversion)
+
+
  
