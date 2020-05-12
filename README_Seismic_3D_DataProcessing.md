@@ -17,8 +17,9 @@ This notebook aims at presenting a simple example of relative seismic inversion.
   - Relative seismic inversion is applied by means of pylops.avo.poststack.PoststackInversion
   - Inverted data is saved back to SEG-Y file using segyio
   
- Pictorial representation of the workflow - 
- <img src="https://mycarta.files.wordpress.com/2019/03/workflow.png?w=768" width="440" height="180" border="10"/>
+ Pictorial representation of the workflow -
+ 
+ <img src="https://mycarta.files.wordpress.com/2019/03/workflow.png?w=768" width="500" height="280" border="10"/>
  
  
  
@@ -29,9 +30,11 @@ This notebook aims at presenting a simple example of relative seismic inversion.
  
  Well! A sample (An example 3D plot of a subset of Kerry-3D) data and inline and xline displays are below - 
  
- https://wiki.seg.org/images/6/6e/Kerry3d.png
+ <img src="https://wiki.seg.org/images/6/6e/Kerry3d.png" width="500" height="280" border="10"/>
  
- https://wiki.seg.org/images/8/8b/Kerry_sidebyside.png
+ <img src="https://wiki.seg.org/images/8/8b/Kerry_sidebyside.png" width="500" height="280" border="10"/>
+ 
+ 
  
 ## Working with Seismic Data (3D data)
  Ability to work with Seismic Data has been a sore spot for some time. How to go about converting Seismic data (generally SEGY files with .SGY extensions) to numpy arrays/Tensors,  Seismic image processing, and particularly morphological image processing, to the task of fault segmentation, et al? So, think about - 
