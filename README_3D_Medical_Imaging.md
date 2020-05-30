@@ -3,15 +3,15 @@
 ## Medical imaging overview
 Mediacal Images comes from (& are generally, stored, exchanged / transmissted as **DICOM** images)- 
 
-A. **Medical 3D Imaging DEVICES** 
+## Medical 3D Imaging DEVICES
+
  -   MRI Scan (magnetic resonance imaging)
  -   CT Scan (computed tomography)
  -   Xray Scans
  -   PET Scan (positron emission topography)
  -   PET/CT or PET/MRI Scans
  -   InfraRed Images
-  
-B. Video Recordings files of Medical Pre/Intra/Post 'Operative Procedures'
+ -   HD Video Camera Recordeers for Medical Pre/Intra/Post 'Operative Procedures'
 
 
 
