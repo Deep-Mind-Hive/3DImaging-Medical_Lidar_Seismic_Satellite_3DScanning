@@ -3,10 +3,10 @@
 ## Medical imaging
 Mediacal Images comes from - 
 A. Medical Imaging (generally, stored as **DICOM** images, are of 2D types as *the objects on the picture are flat*) 
-  **1. MRI dataset
-    2. CT Scan
-    3. Xray Scans etc.
-    4. InfraRed Images**
+  **1. MRI dataset**
+  **2. CT Scan**
+  **3. Xray Scans etc.**
+  **4. InfraRed Images**
 B. Video Recordings of Medical Pre/Intra/Post Operative Procedures
 
 [A quick note]: 
