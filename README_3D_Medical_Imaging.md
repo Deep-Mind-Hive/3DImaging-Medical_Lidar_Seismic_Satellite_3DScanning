@@ -1,6 +1,6 @@
 # Deep Learning On Medical 3D Imaging
 
-## Medical imaging overview
+## Medical 3D Imaging overview
 For a better comprehension of Medical 3D Imaging ecosystem, we need to get a handle of following aspects:
 
 - Medical 3D Imaging DEVICES
@@ -30,7 +30,7 @@ Mediacal Images comes from various Medical 3D Imaging Devices; & are generally, 
 
 
 
-## DICOM (So, What & Why about DICOM?)
+## Medical Imaging Stoarge & Exchnage protocol | DICOM (So, What & Why about DICOM?)
 
 DICOM Images:**Digital Imaging and Communications in Medicine**: The standard for (& most commonly used for)
  - **communication and management** of medical imaging information and related data. 
