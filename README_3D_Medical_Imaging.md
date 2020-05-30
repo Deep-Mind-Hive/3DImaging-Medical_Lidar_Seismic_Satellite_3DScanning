@@ -3,6 +3,11 @@
 ## Medical imaging overview
 Mediacal Images comes from (& are generally, stored, exchanged / transmissted as **DICOM** images)- 
 
+	- Medical 3D Imaging DEVICES
+	- Medical Imaging Stoarge & Exchnage protocol / Standard (DICOM)
+	- Medical 3D Imaging DATASET formats
+	- Medical 3D Imaging DATASET Handling/ PRE-PROCESSING PYTHON Libraries
+
 ## Medical 3D Imaging DEVICES
 
  -   MRI Scan (magnetic resonance imaging)
