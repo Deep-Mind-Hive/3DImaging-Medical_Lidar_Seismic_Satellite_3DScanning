@@ -1,9 +1,9 @@
 # Deep Learning On Medical Imaging
 
 ## Medical imaging
-Mediacal Images comes from - 
+Mediacal Images comes from (& are generally, stored & transmissted as **DICOM** images)- 
 
-A. Medical Imaging (generally, stored as **DICOM** images, are of 2D types as *the objects on the picture are flat*)
+A. 3D Medical Imaging 
 
   **1. MRI dataset**
   
@@ -22,7 +22,7 @@ DICOM Images:**Digital Imaging and Communications in Medicine**: The standard fo
  - widely adopted by **hospitals** and is making inroads into smaller applications like **dentists' and doctors' offices**.
 
 
-## Medical Problems
+3D Medical Imaging (Braoder View)
 
 <p aling="center">
 <img alt="medical imaging" src="https://www.researchgate.net/profile/Nilanjan_Dey3/publication/312222298/figure/fig2/AS:476035763445761@1490507178297/Association-between-the-electromagnetic-spectrum-and-the-medical-modalities.png"></p>
