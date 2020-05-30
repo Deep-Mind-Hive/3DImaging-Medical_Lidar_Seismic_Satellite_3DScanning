@@ -1,11 +1,20 @@
-# Deep Learning On 2-Dimentional Medical Imaging
+# Deep Learning On Medical Imaging
 
-## 2-Dimentional Medical imaging
-One type of picture you can come across in real life is the two-dimensional one. The two dimensions depicted are length and width and the objects on the picture are flat. Mediacal Images comes from - 
-    1. MRI dataset
+## Medical imaging
+Mediacal Images comes from - 
+A. Medical Imaging (generally, stored as **DICOM** images, are of 2D types as *the objects on the picture are flat*) 
+  **1. MRI dataset
     2. CT Scan
     3. Xray Scans etc.
-    4. InfraRed Images
+    4. InfraRed Images**
+B. Video Recordings of Medical Pre/Intra/Post Operative Procedures
+
+[A quick note]: 
+DICOM Images:** Digital Imaging and Communications in Medicine: The standard for (& most commonly used for)
+ - **communication and management** of medical imaging information and related data. 
+ - **storing and transmitting** medical images enabling the *integration of medical imaging devices such as scanners, servers, workstations, printers, network hardware, and **picture archiving and communication systems (PACS)** from multiple manufacturers.*
+ - widely adopted by **hospitals** and is making inroads into smaller applications like **dentists' and doctors' offices**.
+
 
 ## Medical Problems
 
