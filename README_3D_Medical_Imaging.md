@@ -4,6 +4,8 @@
 For a better comprehension of Medical 3D Imaging ecosystem, we need to get a handle of following aspects:
 
 - Medical 3D Imaging DEVICES
+   - Medical 3D Imaging (hardware players) VENDORS 
+   - Medical 3D Imaging SOFTWARES
 - Medical Imaging Stoarge & Exchnage protocol / Standard (DICOM)
 - Medical 3D Imaging DATASET formats
 - Medical 3D Imaging DATASET Handling/ PRE-PROCESSING PYTHON Libraries
@@ -21,6 +23,18 @@ Mediacal Images comes from various Medical 3D Imaging Devices; & are generally, 
  -   InfraRed Images
  -   HD Video Camera Recordeers for Medical Pre/Intra/Post 'Operative Procedures'
 
+#### Medical 3D Imaging (hardware players) VENDORS
+- Philips Healthcare
+- Siemens Healthineers AG
+- GE Healthcare Inc.
+- Hitachi Medical Corporation
+- Carestream Health Inc.
+
+
+#### Medical 3D Imaging SOFTWARES
+- 3D Rendering Software
+- 3D Scanning Software
+- 3D Modelling Software
 
 
 <p align="center">**3D Medical Imaging (Vantage View)**</p>
