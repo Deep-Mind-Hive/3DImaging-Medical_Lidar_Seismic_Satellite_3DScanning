@@ -39,17 +39,15 @@ DICOM Images:**Digital Imaging and Communications in Medicine**: The standard fo
 #### Python library that handel these data
    * A very popular python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
 You can easily install pydicom via command prompt
-
-
-   <code>pip install pydicom</code>
-
    * Another library is [MedPy](https://pypi.org/project/MedPy/).
    
-   <code>pip install nibabel pydicom medpy</code>
+   ```Python
+   pip install pydicom
+   pip install nibabel pydicom medpy
+   ```
    
    
-   * You can find such data from [kaggel competion](https://www.kaggle.com/c/data-science-bowl-2017/data)
-   
+    
    * [How to manipulate and vectorize data](https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial)
    
    * Video tutorial on such data can be found [here](https://www.youtube.com/watch?v=KlffppN47lc)
@@ -94,8 +92,14 @@ In infrared photography, the film or image sensor used is sensitive to infrared 
 
 [White paper for reference.](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7532521)
 
-#### Dataset
-<p align="center">
+## Medical Imaging 'Annotated Dataset' Sources:
+
+One of the prominent Data Source with proper labeling - 
+[Data Science Bowl](https://datasciencebowl.com/)
+ - ![data-science-bowl-2018](https://www.kaggle.com/c/data-science-bowl-2018/data)
+ - ![data-science-bowl-2017](https://www.kaggle.com/c/data-science-bowl-2017/data)
+ 
+ <p align="center">
 <img alt="segments of dataset" src="https://github.com/naldeborgh7575/brain_segmentation/raw/master/images/segment.png"></p>
 
 ## CNN models work for Image featurization
