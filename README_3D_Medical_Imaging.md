@@ -103,8 +103,8 @@ In infrared photography, the film or image sensor used is sensitive to infrared 
 
 One of the prominent Data Source with proper labeling - 
 [Data Science Bowl](https://datasciencebowl.com/)
- - ![data-science-bowl-2018](https://www.kaggle.com/c/data-science-bowl-2018/data)
- - ![data-science-bowl-2017](https://www.kaggle.com/c/data-science-bowl-2017/data)
+ -  [data-science-bowl-2018](https://www.kaggle.com/c/data-science-bowl-2018/data)
+ -  [data-science-bowl-2017](https://www.kaggle.com/c/data-science-bowl-2017/data)
  
  <p align="center">
 <img alt="segments of dataset" src="https://github.com/naldeborgh7575/brain_segmentation/raw/master/images/segment.png"></p>
