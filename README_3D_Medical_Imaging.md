@@ -11,10 +11,12 @@ A. 3D Medical Imaging
   
 B. Video Recordings of Medical Pre/Intra/Post Operative Procedures
 
-3D Medical Imaging (Braoder View)
+
 
 <p aling="center">
 <img alt="medical imaging" src="https://www.researchgate.net/profile/Nilanjan_Dey3/publication/312222298/figure/fig2/AS:476035763445761@1490507178297/Association-between-the-electromagnetic-spectrum-and-the-medical-modalities.png"></p>
+<p align="center"><3D Medical Imaging (Braoder View)></p>
+
 
 
 ## DICOM Images
