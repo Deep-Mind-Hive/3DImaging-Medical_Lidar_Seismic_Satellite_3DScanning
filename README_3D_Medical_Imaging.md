@@ -26,9 +26,14 @@ DICOM Images:**Digital Imaging and Communications in Medicine**: The standard fo
  - **storing and transmitting** medical images enabling the *integration of medical imaging devices such as scanners, servers, workstations, printers, network hardware, and **picture archiving and communication systems (PACS)** from multiple manufacturers.*
  - widely adopted by **hospitals** and is making inroads into smaller applications like **dentists' and doctors' offices**.
 
-* File Format — All patient medical images are saved in the **DICOM file format**. This format has **PHI (protected health information)** about the patient such as — name, sex, age in addition to other image related data such as equipment used to capture the image and some context to the medical treatment. Medical Imaging Equipments create DICOM files. Doctors use DICOM Viewers, computer software applications that can display DICOM images, read and to diagnose the findings in the images.
+* File Format — All patient medical images are saved in the **DICOM file format**. This format has **PHI (protected health information)** about the patient such as — name, sex, age in addition to other image related data such as equipment used to capture the image and some context to the medical treatment. Medical Imaging Equipments create DICOM files. 
+
+* DICOM Viewer: Doctors use DICOM Viewers, computer software applications that can display DICOM images, read and to diagnose the findings in the images. 
+A useful DICOM viewer for Windows users - [Mango](https://idoimaging.com/programs/124)
+
 
 * Communications Protocol — The **DICOM communication protocol** is used to search for imaging studies in the archive and restore imaging studies to the workstation in order to display it. All medical imaging applications that are connected to the hospital network use the DICOM protocol to exchange information, mainly DICOM images but also patient and procedure information. There are also more advanced network commands that are used to control and follow the treatment, schedule procedures, report statuses and share the workload between doctors and imaging devices.
+
 
 * [Data file extensions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948928/) for MRI/CT/X-Ray scan 
   1. <strong>.dcm - handeled by pydicom library</strong>
