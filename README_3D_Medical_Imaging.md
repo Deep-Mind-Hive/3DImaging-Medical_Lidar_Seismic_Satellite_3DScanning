@@ -45,13 +45,36 @@ A useful DICOM viewer for Windows users - [Mango](https://idoimaging.com/program
 
 * Communications Protocol — The **DICOM communication protocol** is used to search for imaging studies in the archive and restore imaging studies to the workstation in order to display it. All medical imaging applications that are connected to the hospital network use the DICOM protocol to exchange information, mainly DICOM images but also patient and procedure information. There are also more advanced network commands that are used to control and follow the treatment, schedule procedures, report statuses and share the workload between doctors and imaging devices.
 
-## Medical 3D Imaging DATASET formats  
-* [Data file extensions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948928/) for MRI/CT/X-Ray scan 
-  1. <strong>.dcm - handeled by pydicom library</strong>
-  2. .nii
-  3. .mnc
-  4. .img and .hdr
+## Medical 3D Imaging DATASET formats 
+Image file format is often a confusing aspect for someone wishing to process medical images. 
+
+A medical image data set consists typically of 
+ - one or more images representing the projection of an anatomical volume onto an image plane (projection or planar imaging), 
+ - a series of images representing thin slices through a volume (tomographic or multislice two-dimensional imaging), 
+ - a set of data from 
+      - a volume (volume or three-dimensional imaging), or 
+      - multiple acquisition of the same tomographic or 
+      -  volume image over time to produce a dynamic series of acquisitions (four-dimensional imaging). 
+       
+The file format describes how the image data are organized inside the image file and how the pixel data should be interpreted by a software for the correct loading and visualization.
+
+* Data file extensions for MRI/CT/X-Ray scan 
+  1. <strong>.dcm - DICOM </strong>
+  2. .nii (Neuroimaging Informatics Technology Initiative (**Nifti**))
+  3. .mnc (**Minc**)
+  4. .img and .hdr (**Analyze**)
   
+P.S.:
+|#|Format | Header | Extension |
+| :---: | :---: | :---: | :---: |
+|1| DICOM | 	Variable length binary format| .dcm|
+|2|Nifti | Fixed-length: 352 byte binary format| .nii|
+|3|Minc| Extensible binary format| .mnc|
+|4| Analyze| Fixed-length: 348 byte binary format| .img and .hdr|
+
+Reference:
+[Data file extensions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948928/)
+
 ## Medical 3D Imaging DATASET PRE-PROCESSING/ Handling PYTHON Libraries
  Python library that handle MRI/CT Scan/X-Ray imaging data
    * A very popular python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
