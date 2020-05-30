@@ -1,25 +1,26 @@
 # Deep Learning On Medical Imaging
 
-## Medical imaging
+## Medical imaging overview
 Mediacal Images comes from (& are generally, stored, exchanged / transmissted as **DICOM** images)- 
 
-A. 3D Medical Imaging 
+A. Medical 3D Imaging DEVICES 
  -  1. MRI Scan
  -  2. CT Scan
  -  3. Xray Scans
  -  4. InfraRed Images
   
-B. Video Recordings of Medical Pre/Intra/Post Operative Procedures
+B. Video Recordings files of Medical Pre/Intra/Post 'Operative Procedures'
 
 
 
+<p align="center">**3D Medical Imaging (Vantage View)**</p>
 <p aling="center">
 <img alt="medical imaging" src="https://www.researchgate.net/profile/Nilanjan_Dey3/publication/312222298/figure/fig2/AS:476035763445761@1490507178297/Association-between-the-electromagnetic-spectrum-and-the-medical-modalities.png"></p>
-<p align="center">**3D Medical Imaging (Vantage View)**</p>
 
 
 
-## DICOM Images
+
+## DICOM (So, What & Why about DICOM?)
 
 DICOM Images:**Digital Imaging and Communications in Medicine**: The standard for (& most commonly used for)
  - **communication and management** of medical imaging information and related data. 
@@ -34,27 +35,34 @@ A useful DICOM viewer for Windows users - [Mango](https://idoimaging.com/program
 
 * Communications Protocol — The **DICOM communication protocol** is used to search for imaging studies in the archive and restore imaging studies to the workstation in order to display it. All medical imaging applications that are connected to the hospital network use the DICOM protocol to exchange information, mainly DICOM images but also patient and procedure information. There are also more advanced network commands that are used to control and follow the treatment, schedule procedures, report statuses and share the workload between doctors and imaging devices.
 
-
+## Medical 3D Imaging DATASET formats  
 * [Data file extensions](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3948928/) for MRI/CT/X-Ray scan 
   1. <strong>.dcm - handeled by pydicom library</strong>
   2. .nii
   3. .mnc
   4. .img and .hdr
   
-#### Python library that handel these data
+## Medical 3D Imaging DATASET PRE-PROCESSING/ Handling PYTHON Libraries
+ Python library that handle MRI/CT Scan/X-Ray imaging data
    * A very popular python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
 You can easily install pydicom via command prompt
    * Another library is [MedPy](https://pypi.org/project/MedPy/).
-   
+
+Python libraries to handle Infrared images
+   * [Pyradi](https://pypi.org/project/pyradi/)
+   * [Spy](http://www.spectralpython.net/)
+   * [Rampy](https://github.com/charlesll/rampy)
+
+[White paper for reference.](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7532521)   
    ```Python
    pip install pydicom
-   pip install nibabel pydicom medpy
+   pip install pydicom medpy nibabel
+   pip install pyradi spectral rampy
    ```
    
-   
+#### Medical Imaging manipulation & vectorization
     
    * [How to manipulate and vectorize data](https://www.kaggle.com/gzuidhof/full-preprocessing-tutorial)
-   
    * Video tutorial on such data can be found [here](https://www.youtube.com/watch?v=KlffppN47lc)
    * [Simple vectorization process for dicom images](https://github.com/Deep-Mind-Hive/2D-imaging-DL/blob/master/vectorizing.py)
    
@@ -89,13 +97,7 @@ In infrared photography, the film or image sensor used is sensitive to infrared 
 <p align="center">
 <img alt="InfraRed image" src="http://www.thermomed.org/images/rost-regulation_470.jpg" ></p>
 
-#### Libraries for python
-   1. [Pyradi](https://pypi.org/project/pyradi/)
-       <br> <code>pip install pyradi</code>
-   2. [Spy](http://www.spectralpython.net/) <bR> <code>pip install spectral</code>
-   3. [Rampy](https://github.com/charlesll/rampy)<br><code>pip install rampy</code>
 
-[White paper for reference.](https://sci-hub.tw/https://ieeexplore.ieee.org/document/7532521)
 
 ## Medical Imaging 'Annotated Dataset' Sources:
 
