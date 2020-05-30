@@ -91,9 +91,8 @@ Reference:
 
 ## Medical 3D Imaging DATASET PRE-PROCESSING/ Handling PYTHON Libraries
  Python library that handle MRI/CT Scan/X-Ray imaging data
-   * A very popular python package used for analyzing DICOM images is [pydicom](https://pydicom.github.io/).
-You can easily install pydicom via command prompt
-   * Another library is [MedPy](https://pypi.org/project/MedPy/).
+   * [pydicom](https://pydicom.github.io/) - A very popular python package used for analyzing DICOM images.
+   * [MedPy](https://pypi.org/project/MedPy/) - Another populat python library 
 
 Python libraries to handle Infrared images
    * [Pyradi](https://pypi.org/project/pyradi/)
