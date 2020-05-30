@@ -16,7 +16,7 @@ A. Medical Imaging (generally, stored as **DICOM** images, are of 2D types as *t
 B. Video Recordings of Medical Pre/Intra/Post Operative Procedures
 
 [A quick note]: 
-DICOM Images:** Digital Imaging and Communications in Medicine: The standard for (& most commonly used for)
+DICOM Images:**Digital Imaging and Communications in Medicine**: The standard for (& most commonly used for)
  - **communication and management** of medical imaging information and related data. 
  - **storing and transmitting** medical images enabling the *integration of medical imaging devices such as scanners, servers, workstations, printers, network hardware, and **picture archiving and communication systems (PACS)** from multiple manufacturers.*
  - widely adopted by **hospitals** and is making inroads into smaller applications like **dentists' and doctors' offices**.
