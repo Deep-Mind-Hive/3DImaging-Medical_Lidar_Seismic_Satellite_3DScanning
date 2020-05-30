@@ -2,6 +2,7 @@
 
 ## Medical imaging
 Mediacal Images comes from - 
+
 A. Medical Imaging (generally, stored as **DICOM** images, are of 2D types as *the objects on the picture are flat*)
 
   **1. MRI dataset**
