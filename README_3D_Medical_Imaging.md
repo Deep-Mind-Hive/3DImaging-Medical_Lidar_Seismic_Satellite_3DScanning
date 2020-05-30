@@ -1,12 +1,15 @@
-# Deep Learning On Medical Imaging
+# Deep Learning On Medical 3D Imaging
 
 ## Medical imaging overview
-Mediacal Images comes from (& are generally, stored, exchanged / transmissted as **DICOM** images)- 
+For a better comprehension of Medical 3D Imaging ecosystem, we need to get a handle of following aspects:
 
-	- Medical 3D Imaging DEVICES
-	- Medical Imaging Stoarge & Exchnage protocol / Standard (DICOM)
-	- Medical 3D Imaging DATASET formats
-	- Medical 3D Imaging DATASET Handling/ PRE-PROCESSING PYTHON Libraries
+- Medical 3D Imaging DEVICES
+- Medical Imaging Stoarge & Exchnage protocol / Standard (DICOM)
+- Medical 3D Imaging DATASET formats
+- Medical 3D Imaging DATASET Handling/ PRE-PROCESSING PYTHON Libraries
+
+Mediacal Images comes from various Medical 3D Imaging Devices; & are generally, stored, exchanged / transmissted as **DICOM** images.
+
 
 ## Medical 3D Imaging DEVICES
 
